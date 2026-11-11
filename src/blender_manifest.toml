@@ -1,0 +1,26 @@
+schema_version = "1.0.0"
+
+id = "bbg_weight_paints"
+version = "1.0.0"
+name = "BBG Weight Painting"
+tagline = "BreadBird Games Weight Painting Tools to make life easier"
+maintainer = "Coffandro <macrosedk@gmail.com>"
+type = "add-on"
+
+website = "https://breadbirdgames.github.io"
+
+tags = ["Import-Export"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/.git/",
+  "/*.zip",
+  ".env",
+]
